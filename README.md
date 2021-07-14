@@ -4,6 +4,9 @@
 ajaxのgetを行う為のテンプレート
 ## jQuery側のjsonオブジェクトの準備
 ```javascript
-formData{};
+formData = {};
 ```
 {}は空のjsonオブジェクト
+```javascript
+formData["param1"] = "テスト";
+```
